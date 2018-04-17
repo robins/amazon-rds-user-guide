@@ -230,7 +230,7 @@ Use the `pg_dump -Fc` \(compressed\) or `pg_restore -j` \(parallel\) commands wi
 
 ### Working with the fsync and full\_page\_writes database parameters<a name="CHAP_BestPractices.PostgreSQL.fsync"></a>
 
- In PostgreSQL 9\.4\.1 on Amazon RDS, the `fsync` and` full_page_writes` database parameters are not modifiable\. Disabling the `fsync` and` full_page_writes` database parameters can lead to data corruption, so we have enabled them for you\. We recommend that customers with other 9\.3 DB engine versions of PostgreSQL not disable the `fsync` and` full_page_writes` parameters\. 
+ In PostgreSQL 9\.4\.1 on Amazon RDS, the `fsync` and` full_page_writes` database parameters are not modifiable\. Disabling the `fsync` and` full_page_writes` database parameters can lead to data corruption, so we have disabled them for you\. We recommend that customers with other 9\.3 DB engine versions of PostgreSQL not disable the `fsync` and` full_page_writes` parameters\. 
 
 ### Working with the PostgreSQL Autovacuum Feature<a name="CHAP_BestPractices.PostgreSQL.Autovacuum"></a>
 
